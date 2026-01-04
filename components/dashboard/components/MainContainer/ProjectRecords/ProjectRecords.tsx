@@ -8,13 +8,13 @@ import React from "react";
 const projectRecords = [
     {
         time: "9:00 AM",
-        url: "https://example.com/project-idea",
+        url: "https://www.google.com/",
         numberOfComments: 8,
         complete: 40,
     },
     {
         time: "10:00 AM",
-        url: "https://example.com/project-idea",
+        url: "https://www.google.com/",
         numberOfComments: 15,
         complete: 75,
     },
@@ -40,9 +40,9 @@ export default function ProjectRecords() {
                             </div>
                             <div className="flex-2">
                                 <span className="text-lg">Search Inspriration for project</span>
-                                <div className="flex items-center gap-10">
-                                    <div className="flex items-center gap-3">
-                                        <Link href={record.url} className="h-4 w-4 truncate">
+                                <div className="flex items-center justify-start gap-10">
+                                    <div>
+                                        <Link href={record.url} className="h-4 w-4">
                                             {record.url}
                                         </Link>
                                     </div>
