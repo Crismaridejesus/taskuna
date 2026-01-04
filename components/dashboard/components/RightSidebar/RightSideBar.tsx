@@ -54,7 +54,7 @@ export const messages = [
 
 const emojis = [" ", "🎉", "✨", "😍", "😄", "🔥", "😉", "😎", "🤔", "🥳", "😒", "💕", "🔒", " "];
 
-export default function SidebarRight() {
+export default function RightSideBar() {
     return (
         <div className="relative h-full w-full">
             <Sidebar collapsible="none" side="right" className="absolute h-full w-full p-6">
