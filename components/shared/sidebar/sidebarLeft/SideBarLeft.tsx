@@ -14,18 +14,17 @@ import {
 } from "@/components/ui/sidebar";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 // Menu items.
 const items = [
     {
         title: "Dashboard",
-        url: "#",
+        url: "/dashboard",
         icon: LayoutGrid,
     },
     {
         title: "Timeline",
-        url: "#",
+        url: "/timeline",
         icon: AlignCenterHorizontalIcon,
     },
     {
