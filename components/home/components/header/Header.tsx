@@ -17,11 +17,12 @@ export default function Header() {
                         <Link href="#">Feature</Link>
                         <Link href="#">How It Works</Link>
                         <Link href="#">Pricing</Link>
-                        <Link href="#">Login</Link>
-
-                        <Button variant="default" className="bg-secondary rounded-lg px-8 py-7 text-xl">
-                            Get Started
-                        </Button>
+                        <Link href="/login">Login</Link>
+                        <Link href="/signup">
+                            <Button variant="default" className="bg-secondary rounded-lg px-8 py-7 text-xl">
+                                Get Started
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>
